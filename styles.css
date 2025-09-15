@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f4ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Welcome Page */
+.welcome {
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.welcome button {
+  padding: 12px 25px;
+  font-size: 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.welcome button:hover {
+  background: #0056b3;
+}
+
+/* To-Do App */
+.container {
+  background: #fffaf5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: none; /* Hidden initially */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.header input {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.section {
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.section h2 {
+  background: #000;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  margin: -10px -10px 10px -10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.notes {
+  height: 100px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  resize: none;
+}
